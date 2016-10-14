@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-enotes-base",
+  "version": "0.1.0",
+  "description": "ESLint shareable config for eNotes.com style",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=3.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "enotes"
+  ],
+  "author": "eNotes.com",
+  "license": "CC-BY-SA-3.0"
+}
