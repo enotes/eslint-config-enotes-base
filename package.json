@@ -4,19 +4,42 @@
   "description": "ESLint shareable config for eNotes.com style",
   "main": "index.js",
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4"
   },
   "peerDependencies": {
     "eslint": ">=3.5.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/index.js"
   },
+  "files": [
+      "index.js"
+  ],
   "keywords": [
     "eslint",
     "eslintconfig",
     "enotes"
   ],
   "author": "eNotes.com",
-  "license": "CC-BY-SA-3.0"
+  "contributors": [
+      {
+          "name": "Luiz Lopes",
+          "email": "luiz@wickeddeveloper.com",
+          "url": "https://twitter.com/theprivileges"
+      }
+  ],
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "eslint": "^3.7.1"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/enotes/eslint-config-enotes-base"
+  },
+  "bugs": {
+      "url": "https://github.com/enotes/eslint-config-enotes-base/bugs"
+  },
+  "homepage": {
+      "url": "https://github.com/enotes/eslint-config-enotes-base"
+  }
 }
