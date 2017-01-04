@@ -13,7 +13,8 @@
     "test": "node test/index.js"
   },
   "files": [
-    "index.js"
+    "index.js",
+    ".eslintrc"
   ],
   "keywords": [
     "eslint",
