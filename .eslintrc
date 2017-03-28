@@ -1,8 +1,10 @@
 {
   "env": {
+    "es6": true,
+    "commonjs": true,
+    "node": true,
     "browser": true,
-    "jquery": true,
-    "node": true
+    "mocha": true
   },
   "globals": {},
   "rules": {
@@ -91,6 +93,7 @@
     "wrap-iife": [
       2,
       "any"
-    ]
+    ],
+    "no-const-assign": "error"
   }
 }
